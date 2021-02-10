@@ -2,4 +2,5 @@
 Simon says game for android. made with processing.
 
 
-This is what I have so far..
+Been working on this for a few days now. Finally decided it was 
+Worth putting up here. This is just what I have so far. 
