@@ -43,7 +43,7 @@ class GameBlock {
     return blockColor;
   }
 
-  void touched() {
+  void touch() {
     //println(blockNum);
     if (blockColor == savedColor) {
       setBlockColor(color(255));
