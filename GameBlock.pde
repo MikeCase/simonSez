@@ -57,7 +57,7 @@ class GameBlock {
     rect(startx, starty, endx, endy);
     fill(0);
     textFont(blockFont);
-    text( blockNum, startx+100*displayDensity, starty+200*displayDensity);
+    //text( blockNum, startx+100*displayDensity, starty+200*displayDensity);
     if (blockColor != savedColor) {
       setBlockColor(savedColor);
     }

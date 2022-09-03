@@ -16,7 +16,8 @@ class GameBoard {
   GameBlock gb;
   IntList seq;
   int cntr;
-  IntList[] lastSeq;
+  IntList lastSeq;
+  
   GameBoard() {
 
     /*
@@ -55,18 +56,6 @@ class GameBoard {
     gb.touch();
   }
 
-  //void playSeq() {
-  //  /*
-  //    Generate a play sequence. 
-  //    Expand the sequence by 1 each round.
-
-  //  */
-  //  seq = new int[]{0,1,2,3,3,2,1,0};
-  //  for ( int s : seq){
-  //    this.touch(s);
-  //  }
-  //}
-
   void display() {
 
     // Load each gameblock, 
@@ -80,7 +69,7 @@ class GameBoard {
     
     
     //seq.remove(cntr);
-    if(seq.size() <= 4){
+    if(seq.size() >= 4){
       cntr = 0;
     } else {
       cntr++;

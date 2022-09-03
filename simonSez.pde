@@ -29,10 +29,11 @@ void draw() {
   // Draw the gameboard and the title 
   // to the screen
   gb.display();
+  //gb.playSeq();
   //println("Displayed After");
   fill(255, 255, 0);
-  textFont(titleFont);
-  text("SimonSez", width/2, 100);
+  //textFont(titleFont);
+  //text("SimonSez", width/2, 100);
 }
 
 void touchStarted() {
@@ -58,6 +59,7 @@ void touchStarted() {
     // ditto,
     gb.touch(1);
   }
+  
   // 2, bottom left
   if (mouseX <= width/2 && mouseY >= height/2) {
     // ditto,
